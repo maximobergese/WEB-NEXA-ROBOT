@@ -4,10 +4,10 @@ import { FaInstagram, FaWhatsapp, FaEnvelope, FaArrowUp } from 'react-icons/fa'
 export default function App() {
   // CAROUSEL
   const carouselImgs = [
-    '../public/carrousel-1.png',
-    '../public/nexa-1.jpeg',
-    '../public/nexa-2.jpeg',
-    '../public/robot.jpg'
+    '/carrousel-1.png',
+    '/nexa-1.jpeg',
+    '/nexa-2.jpeg',
+    '/robot.jpg'
   ]
   const [idx, setIdx] = useState(0)
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function App() {
       {/* HEADER */}
       <header className="site-header">
         <div className="brand" onClick={() => goTo('inicio')}>
-          <img src="../public/logo.jpeg" alt="Nexa logo" className="logo"
+          <img src="/logo.jpeg" alt="Nexa logo" className="logo"
             onError={(e) => { e.target.src = 'https://via.placeholder.com/64?text=N' }} />
           <div className="brand-text">
           </div>
@@ -161,7 +161,7 @@ export default function App() {
           <br />
           <div className="product-grid">
             <div className="product">
-              <img src="../public/robot.jpg" alt="robot" />
+              <img src="/robot.jpg" alt="robot" />
               <h4>Nexa Robot</h4>
               <p><strong>$150000</strong></p>
               <p>Robot colaborativo de desarrollo intercarreras, controlable desde un dashboard.</p>
