@@ -183,7 +183,7 @@ export default function App() {
           <div className="footer-socials">
             <a href="https://www.instagram.com/nexarobotica_/" target="_blank" rel="noreferrer"><FaInstagram /></a>
             <a href="https://wa.me/543534228757?text=Hola!%20Quisiera%20más%20información%20sobre%20el%20robot%20Nexa." target="_blank" rel="noreferrer"><FaWhatsapp /></a>
-            <a href="mailto:maxibergese@gmail.com"><FaEnvelope /></a>
+            <a href="mailto:nexarobotica@gmail.com"><FaEnvelope /></a>
           </div>
           <p className='instituto'>© {new Date().getFullYear()} Nexa — Instituto Leibnitz</p>
         </div>
