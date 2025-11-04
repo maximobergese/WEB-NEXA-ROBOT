@@ -4,10 +4,10 @@ import { FaInstagram, FaWhatsapp, FaEnvelope, FaArrowUp } from 'react-icons/fa'
 export default function App() {
   // CAROUSEL
   const carouselImgs = [
+    '/carrousel-0.png',
     '/carrousel-1.png',
-    '/nexa-1.jpeg',
-    '/nexa-2.jpeg',
-    '/robot.jpg'
+    '/carrousel-2.png',
+    '/carrousel-3.png'
   ]
   const [idx, setIdx] = useState(0)
   useEffect(() => {
@@ -49,10 +49,11 @@ export default function App() {
           </div>
         </div>
         <nav className="nav">
+          <button onClick={() => goTo('inicio')}>Inicio</button>
           <button onClick={() => goTo('quienes')}>¿Quiénes somos?</button>
           <button onClick={() => goTo('contacto')}>Contacto</button>
           <button onClick={() => goTo('comprar')}>Comprar</button>
-          <button className="btn-login">Iniciar Sesión</button>
+          {/* <button className="btn-login">Iniciar Sesión</button> */}
         </nav>
       </header>
 
@@ -62,10 +63,9 @@ export default function App() {
           <div className="hero-left">
             <h2>Conocé a Nexa — Tecnología que te entiende</h2>
             <p>
-              Nexa es un proyecto intercarreras del Instituto Leibnitz que integra programación,
-              producción, marketing y gestión. <br />
-              Controlá el robot desde un dashboard y potenciá
-              las tareas del laboratorio y la producción.
+              <strong>Nexa</strong> es el resultado de un trabajo en conjunto que integra software, hardware, marketing y gestión administrativa.
+              <br />
+              El resultado es un robot inteligente que puede ser controlado desde un panel digital, pensado para acompañar tareas personales y simplificar la vida cotidiana con tecnología colaborativa.
             </p>
             <div className="hero-cta">
               <button onClick={() => goTo('comprar')} className="btn-primary">Comprar</button>
