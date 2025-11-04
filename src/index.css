@@ -228,7 +228,7 @@ body {
   text-align: center;
 }
 .quienes-somos {
-  background-image: url('../public/equipo.jpeg');
+  background-image: url('../public/carrousel-1.png');
   background-size: cover; /* hace que ocupe todo el espacio */
   background-position: center;
   background-repeat: no-repeat;

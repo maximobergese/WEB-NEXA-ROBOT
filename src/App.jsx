@@ -148,7 +148,7 @@ export default function App() {
               <a href="https://wa.me/543534228757?text=Hola!%20Quisiera%20más%20información%20sobre%20el%20robot%20Nexa." target="_blank" rel="noreferrer" className="social-link">
                 <FaWhatsapp /> 3534228757
               </a>
-              <a href="mailto:maxibergese@gmail.com" className="social-link">
+              <a href="mailto:nexarobotica@gmail.com" className="social-link">
                 <FaEnvelope /> nexarobotica@gmail.com
               </a>
             </div>
