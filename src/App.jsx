@@ -93,8 +93,6 @@ export default function App() {
           <p className="intro-text">
             Somos un equipo multidisciplinario de profesionales en software, sistemas, marketing y administración conectados por una misma meta que es crear robots inteligentes que conecten con lo humano, transformando la innovación en una experiencia cercana, útil y emocional. Uno de nuestros propósitos es acercar el futuro al presente a través de soluciones tecnológicas accesibles, funcionales y con diseño empático y creativo.
             Creemos que la verdadera evolución ocurre cuando la tecnología no reemplaza, sino que acompaña y mejora la vida cotidiana, ayudando a las personas a optimizar su tiempo, simplificar sus tareas y disfrutar más de lo que realmente importa, transformando la innovación en una experiencia cercana, útil y emocional. Cada desarrollo de NEXA combina precisión técnica, diseño moderno y calidez emocional, reflejando nuestra convicción de que la innovación no tiene que ser fría, sino inteligente, cercana y viva.
-            Visión
-            Queremos ser reconocidos como la primera marca que combina innovación tecnológica con humanización de la robótica, logrando que cada persona pueda tener un asistente propio.
           </p>
 
           <div className="who-container">
