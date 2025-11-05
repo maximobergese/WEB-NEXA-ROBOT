@@ -4,10 +4,11 @@ import { FaInstagram, FaWhatsapp, FaEnvelope, FaArrowUp } from 'react-icons/fa'
 export default function App() {
   // CAROUSEL
   const carouselImgs = [
-    '/carrousel-0.png',
+    '/carrousel-.png',
+    '/carrousel1.jpeg',
+    '/carrousel2.jpeg',
     '/carrousel-1.png',
-    '/carrousel-2.png',
-    '/carrousel-3.png'
+    '/carrousel3.jpeg'
   ]
   const [idx, setIdx] = useState(0)
   useEffect(() => {
@@ -49,8 +50,8 @@ export default function App() {
           </div>
         </div>
         <nav className="nav">
-          <button onClick={() => goTo('inicio')}>Inicio</button>
-          <button onClick={() => goTo('quienes')}>¿Quiénes somos?</button>
+{/*           <button onClick={() => goTo('inicio')}>Inicio</button>
+ */}          <button onClick={() => goTo('quienes')}>¿Quiénes somos?</button>
           <button onClick={() => goTo('contacto')}>Contacto</button>
           <button onClick={() => goTo('comprar')}>Comprar</button>
           {/* <button className="btn-login">Iniciar Sesión</button> */}
@@ -161,7 +162,7 @@ export default function App() {
             <div className="product">
               <img src="/robot.jpg" alt="robot" />
               <h4>Nexa Robot</h4>
-              <p><strong>$150000</strong></p>
+              {/* <p><strong>Precio</strong></p> */}
               <p>Robot colaborativo de desarrollo intercarreras, controlable desde un dashboard.</p>
               <div className="product-buttons">
                 <a className="btn-comprar" href="https://wa.me/543534228757?text=Hola!%20Quisiera%20información%20para%20la%20compra%20del%20robot%20Nexa.">Comprar</a>
