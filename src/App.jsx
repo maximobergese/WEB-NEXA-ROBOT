@@ -50,8 +50,8 @@ export default function App() {
           </div>
         </div>
         <nav className="nav">
-{/*           <button onClick={() => goTo('inicio')}>Inicio</button>
- */}          <button onClick={() => goTo('quienes')}>¿Quiénes somos?</button>
+          <button onClick={() => goTo('inicio')}>Inicio</button>
+          <button onClick={() => goTo('quienes')}>¿Quiénes somos?</button>
           <button onClick={() => goTo('contacto')}>Contacto</button>
           <button onClick={() => goTo('comprar')}>Comprar</button>
           {/* <button className="btn-login">Iniciar Sesión</button> */}
