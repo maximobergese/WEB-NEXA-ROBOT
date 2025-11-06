@@ -7,8 +7,10 @@ export default function App() {
     '/carrousel-.png',
     '/carrousel1.jpeg',
     '/carrousel2.jpeg',
-    '/carrousel-1.png',
-    '/carrousel3.jpeg'
+    '/carrousel3.jpeg',
+    '/carrousel4.jpeg',
+    '/carrousel5.jpeg',
+    '/carrousel6.jpeg'
   ]
   const [idx, setIdx] = useState(0)
   useEffect(() => {
@@ -92,7 +94,7 @@ export default function App() {
         <section id="quienes" className="quienes-somos">
           <h3 className='titulo-seccion'>¿Quiénes somos?</h3>
           <p className="intro-text">
-            Somos un equipo multidisciplinario de profesionales en software, sistemas, marketing y administración conectados por una misma meta que es crear robots inteligentes que conecten con lo humano, transformando la innovación en una experiencia cercana, útil y emocional. Uno de nuestros propósitos es acercar el futuro al presente a través de soluciones tecnológicas accesibles, funcionales y con diseño empático y creativo.
+            Somos un equipo multidisciplinario de profesionales en software, hardware, marketing y administración conectados por una misma meta que es crear robots inteligentes que conecten con lo humano, transformando la innovación en una experiencia cercana, útil y emocional. Uno de nuestros propósitos es acercar el futuro al presente a través de soluciones tecnológicas accesibles, funcionales y con diseño empático y creativo.
             Creemos que la verdadera evolución ocurre cuando la tecnología no reemplaza, sino que acompaña y mejora la vida cotidiana, ayudando a las personas a optimizar su tiempo, simplificar sus tareas y disfrutar más de lo que realmente importa, transformando la innovación en una experiencia cercana, útil y emocional. Cada desarrollo de NEXA combina precisión técnica, diseño moderno y calidez emocional, reflejando nuestra convicción de que la innovación no tiene que ser fría, sino inteligente, cercana y viva.
           </p>
 
@@ -193,14 +195,16 @@ export default function App() {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h3>Ficha técnica del Nexa Robot</h3>
             <ul>
-              <li><strong>Altura:</strong> 45 cm</li>
+              <li><strong>Altura:</strong> 40 cm</li>
               <li><strong>Peso:</strong> 2.8 kg</li>
-              <li><strong>Microcontrolador:</strong> ESP32 Dual Core 240MHz</li>
-              <li><strong>Conectividad:</strong> WiFi + Bluetooth BLE</li>
-              <li><strong>Sensores:</strong> Ultrasonido, Temperatura, Acelerómetro, LDR</li>
-              <li><strong>Batería:</strong> 7.4V 2200mAh (autonomía 2h)</li>
-              <li><strong>Interfaz:</strong> Dashboard web con control remoto y gráficos en tiempo real</li>
-              <li><strong>Material del chasis:</strong> PLA impreso en 3D</li>
+              <li><strong>Microcontrolador:</strong> ESP32 Wifi Bluetooth 2.4 de 38 Pines con USB-C</li>
+              <li><strong>Conectividad:</strong> WiFi</li>
+              <li><strong>Sensores:</strong> Sensor Ultrasónico HC-SR04 (proximidad)</li>
+              <li><strong>Pantalla:</strong> Pantalla OLED 1.3 pulgadas</li>
+              <li><strong>Batería:</strong> Power Bank 25.000mAh (autonomía +24h)</li>
+              <li><strong>Interfaz:</strong> Dashboard web con control remoto y pedido de canciones por voz y texto, entre otras funciones.</li>
+              <li><strong>Material del chasis:</strong> Chasis de acrílico con carcasa de poliestireno expandido</li>
+              <li><strong>Hardware:</strong> Servomotor SG90, 2 ruedas con motor DC, Doble Puente H L298n</li>
             </ul>
             <button className="btn-cerrar" onClick={closeModal}>Cerrar</button>
           </div>
