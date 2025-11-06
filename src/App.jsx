@@ -8,9 +8,9 @@ export default function App() {
     '/carrousel1.jpeg',
     '/carrousel2.jpeg',
     '/carrousel3.jpeg',
-    '/carrousel4.jpeg',
     '/carrousel5.jpeg',
-    '/carrousel6.jpeg'
+    '/carrousel6.jpeg',
+    '/venta.jpeg'
   ]
   const [idx, setIdx] = useState(0)
   useEffect(() => {
@@ -162,7 +162,7 @@ export default function App() {
           <br />
           <div className="product-grid">
             <div className="product">
-              <img src="/robot.jpg" alt="robot" />
+              <img src="/robot1.png" alt="robot" />
               <h4>Nexa Robot</h4>
               {/* <p><strong>Precio</strong></p> */}
               <p>Robot colaborativo de desarrollo intercarreras, controlable desde un dashboard.</p>
